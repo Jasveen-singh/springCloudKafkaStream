@@ -14,7 +14,8 @@ public class KafkaStreamListener {
 
     private static Logger logger = LogManager.getLogger(KafkaStreamListener.class);
     
-    //bean for processing autonomous messages 
+    //bean for processing autonomous messages and pushing out avro formats
+    //@SobyChako : I am able to push messages as String and receive as String but deserialization does not work for JSONObject
      @Bean
       public Function<KStream<String, JSONObject>, KStream<String, JSONObject>> autonomousProcessor() {
          System.out.println("start of stream processor%%%%%%%%%%%%%%%%%%%%%**************************");
