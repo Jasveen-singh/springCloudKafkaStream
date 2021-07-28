@@ -1,0 +1,70 @@
+{
+   "target_id":"264010-M6-1",
+   "alrmContent":{
+      "date":"01-03-90",
+      "payLoad":[
+         {
+            "sectionCount":3,
+            "sections":[
+               {
+                  "fieldCount":1,
+                  "fields":[
+                     {
+                        "name":"QMFSYS"
+                     }
+                  ]
+               },
+               {
+                  "fieldCount":7,
+                  "fields":[
+                     {
+                        "name":"MN"
+                     },
+                     {
+                        "name":"FASTSTART"
+                     },
+                     {
+                        "name":"NSA"
+                     },
+                     {
+                        "name":""
+                     },
+                     {
+                        "name":""
+                     },
+                     {
+                        "name":"NEND"
+                     },
+                     {
+                        "name":"NA"
+                     }
+                  ]
+               },
+               {
+                  "fieldCount":1,
+                  "fields":[
+                     {
+                        "name":"\\\"FastStart\\\""
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "ATAG":"024168",
+      "CTAG":"024168",
+      "verb":"REPORT",
+      "type":1,
+      "alarmCode":" ",
+      "modifiers":[
+         "ALM",
+         "SYNC"
+      ],
+      "rawMsg":"   264010-M6-1 01-03-90 03:09:36\r\n  024168 REPORT ALM SYNC\r\n   \"TMGSYS:MN,FASTSTART,NSA,,,NEND,NA:\\\"FastStart\\\"\"\r\n;",
+      "SID":"264010-M6-1",
+      "terminationCode":"\r\n;",
+      "timeStamp":"Mon Mar 01 03:09:36 UTC 1990",
+      "header":"264010-M6-1 21-06-21 03:09:36\r\n*  024168 REPORT ALM SYNC\r\n",
+      "time":"03:09:36"
+   }
+}

@@ -1,0 +1,4 @@
+{
+	"kafka_dns" : "localhost:9092",
+	"kafka_topic" : "INPUT_TOPIC"
+}
